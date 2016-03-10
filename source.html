@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>My Portfolio</title>
+      <link href='https://fonts.googleapis.com/css?family=Lato:100,300italic' rel='stylesheet' type='text/css'>
+      
+      <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="title-logo img-responsive" src="images/att.jpg" alt="ATT logo">
+          </div>
+          <div class="col-md-6 text-right text-uppercase">
+            <h1 class="title-super text-thin">Ben Hanley</h1>
+            <h4>Front-end Developer</h4>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-responsive" src="images/html.jpg" alt"body art" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4" >
+            <img class="img-responsive image" src="images/volcano.jpg" alt"feature art" data-toggle="modal" data-target="#project1">
+            <h3 class="text-uppercase text-header">Iceland Volcano</h3>
+            <p>https://github.com/udacity/solarsystems</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive image" src="images/gears.jpg" alt"feature art" data-toggle="modal" data-target="#project2">
+            <h3 class="text-uppercase text-header">Gears</h3>
+            <p>https://github.com/udacity/gears</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive image" src="images/power.jpg" alt"feature art" data-toggle="modal" data-target="#project3">
+            <h3 class="text-uppercase text-header">On/Off Button</h3>
+            <p>https://github.com/udacity/age</p>
+          </div>
+        </div>
+      </div>
+     <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Iceland Volcano</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/volcano.jpg">
+            <p>Place Holder Picture</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>   
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Gears</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/gears.jpg">
+            <p>Place Holder Picture</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">On/Off Button</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/power.jpg">
+            <p>Place holder picture</p> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>           
+  </body>
+</html>
